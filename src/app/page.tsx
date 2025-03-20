@@ -1,6 +1,6 @@
 'use client'
 
-import Button from "./components/Button";
+
 
 import Greet from "./components/Greet";
 import Hero from "./components/Hero";
