@@ -5,12 +5,7 @@
   --foreground: #000000;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* Removed invalid @theme block and ensured variables are defined in :root */
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -23,4 +18,10 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: 'Times New Roman', Times, serif;
+}
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Times New Roman', Times, serif;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for theme change */
 }
