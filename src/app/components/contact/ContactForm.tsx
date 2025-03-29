@@ -7,20 +7,20 @@ const ContactForm = () => {
   method="POST"
 >
  <div className="flex flex-col space-y-2">
- <label className='flex flex-col space-y-2 justify-start text-white'>
+ <label className='flex flex-col space-y-2 justify-start '>
     Your email:
     <input type="email" name="email" className='border-2 border-white'/>
   </label>
  </div>
  <div className='flex flex-col space-y-2'>
- <label className='flex flex-col space-y-2 text-white'>
+ <label className='flex flex-col space-y-2 '>
     Your message:
     <textarea name="message" rows={5} className='border-2 border-white'></textarea>
   </label>
  </div>
    {/* your other form fields go here  */}
   <div className='flex items-center justify-center '>
-  <button className='bg-cyan-500 text-2xl text-white hover:bg-cyan-700 p-4 rounded-md' type="submit">Send</button>
+  <button className='bg-cyan-500 text-2xl hover:bg-cyan-700 p-4 rounded-md' type="submit">Send</button>
   </div>
 </form>
   )

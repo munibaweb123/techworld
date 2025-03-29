@@ -11,9 +11,9 @@ import Test from "./components/Test";
 export default function Home() {
   
   return (
-   <main className="min-h-screen max-w-7xl mx-auto bg-gray-100">
+   <main className="min-h-screen max-w-7xl mx-auto bg-gray-100 dark:bg-gray-900">
    
-    <h1 className="text-4xl text-center p-10">Welcome to nextjs 15 🎈</h1>
+    <h1 className="text-4xl text-center p-10 text-blue-100">Welcome to nextjs 15 🎈</h1>
    <div className="flex justify-center items-center">
    {/* <button onClick={()=>alert("button is clicked!")}  className="bg-amber-300 p-4 rounded-md text-2xl text-blue-900">
     click me
